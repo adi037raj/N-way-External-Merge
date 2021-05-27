@@ -1,0 +1,25 @@
+I have done By programming in c++.
+
+In my program,first it asks the user to enter the no. of records, then it again ask the user to enter the size of block,which means the no. of records a block can hold, and after that it again ask the user to enter the size of memory in blocks.
+
+My program is running fine,you can change the value of B,M and play around with it.
+
+I have done my programming in codeblocks, so i recommend you use the same for better results.
+
+	Now coming to NAMING convention
+
+dataset.txt - it contains the list of all the records,intially (without sorted)
+
+Blocks0.txt,Blocks1.txt,.....and so on- This contains all the all the blocks initally, means after creating the dataset i am dividing this in blocks and storing it in Block0.txt,Block1.txt,...and so on.
+
+pass 1 run0.txt,pass 1 run1.txt,.......pass 2 run0.txt,pass 2 run1.txt, ..... and so on , it stores the sorted runs upto that pass
+
+pass 1 block0.txt,pass 1 block1.txt,......pass 2 block0.txt,pass 2 block1.txt,..........and so on, it stores the intermediate blocks created while sorting 
+
+the difference between pass 1 run0.txt and pass 1 block0.txt , is that in case of block the record size is fixed(as supplied by the user at running),and in pass 1 run1.txt , it store blocks within it.
+
+and Atlast I am creating a file output.txt, which contains the desired result..
+
+My program is running for any size of records, so if you enter large number then it may take some time to get the output(15 to 20 seconds)
+
+
